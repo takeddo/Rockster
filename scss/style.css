@@ -1,0 +1,495 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 19px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#sidebar {
+    min-height: 112vh;
+    background-color: #3A63DE;
+    width: 150px;
+    float: left;
+}
+
+.logo {
+    padding-top: 33px;
+}
+
+#search-info {
+    /* background-color: #0f0f0f; */
+    border: 1px solid #E1E3E5;
+    float: left;
+    align-items: center;
+    max-width: 380px;
+}
+
+
+
+#search-info input {
+    width: 380px;
+    height: 80px;
+    padding: 0 0 0 30px;
+    background: url(./../image/search-info/Search.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    border: 2px solid #E1E3E5;
+    outline: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #818386;
+}
+
+.carts {
+    margin-bottom: 45px;
+}
+
+.carts h1 {
+    font-size: 13px;
+    margin: 0;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.chat {
+    background-color: #244cc5;
+    height: 120px;
+    padding-top: 15px;
+}
+
+.nav__mail-number {
+    font-family: 'Noto Sans', sans-serif;
+    position: absolute;
+    /* top: -5px;
+    right: -5px; */
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    background: #F72464;
+    text-align: center;
+}
+
+.header {
+    color: #818386;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2 {
+    margin-left: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #818386;    
+}
+
+.managers-dialog, .designers-dialog {
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    height: 97px;
+    border-bottom: 2px solid #E1E3E5;
+}
+
+.managers-dialog h2, .designers-dialog h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: left;
+    color: #333333;
+}
+
+.managers-dialog p, .designers-dialog p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #818386;
+}
+
+.managers-dialog img, .designers-dialog img {
+    margin-right: 16px;
+}
+
+.count {
+    margin-left: auto;
+}
+
+.column-dialog {
+    color: #818386;
+}
+
+.people-block a, .wrapper a {
+    text-decoration: none;
+}
+
+/* Main */
+
+#main {
+    float: left;
+}
+
+.head {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    border-bottom: 2px solid #E1E3E5;
+
+    align-items: center;
+}
+
+.name {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.name h1 {
+    margin-left: 20px !important;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.nav-icons {
+    justify-content: space-between;
+    padding-left: 1102.1px;
+    align-items: center;
+}
+
+.nav-icons img {
+    padding-right: 10px;
+}
+
+/* Dialog */
+
+.dialog {
+    float: left;
+}
+
+.timer {
+    margin: 0;
+    padding-left: 370px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+    color: #818386;
+}
+
+.first-message {
+    display: flex;
+    padding-top: 24px;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.first-message a,.third-message a {
+    margin-left: 14px;
+}
+
+.container-message {
+    margin-left: 8px;
+    background-color: #3A63DE;
+    border-radius: 8px 8px 8px 0;
+    padding: 15px 24px;
+}
+
+.container-message h2, .container-message-2 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/* Second message */
+
+.second-message {
+    float: right;
+    align-items: center;
+    text-align: left;
+    margin-left: 790px !important;
+    display: flex;
+}
+
+.second-message img {
+    padding-left: 8px;
+}
+
+.container-message-2 {
+    margin-left: 8px;
+    background-color: #F2F5FA;
+    border-radius: 8px 8px 0 8px;
+    padding: 10px 24px;
+}
+
+.container-message-2 h2 {
+    color: #595F69;
+}
+
+.timer-2 {
+    padding-left: 860px !important;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+    color: #818386; 
+}
+
+.picture-more {
+    float: right;
+    margin-right: 100px !important;
+    align-content: center;
+    align-items: center;
+}
+
+.picture-more > * {
+    padding-right: 16px;
+}
+
+.picture-more a {
+    position: absolute;
+    margin-top: 12px;
+}
+
+/* TODAY text */
+
+.today-block {
+    display: flex;
+    justify-content: center;
+}
+
+.today {
+    width: 95%;
+    text-align: center;
+
+    border-bottom: 1px solid #e0e0e2;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 0.1em;
+    color: #818386;
+    margin: 10px 0 20px;
+}
+
+.today span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+/* Third message */
+
+.third-message {
+    padding-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.timer-3 {
+    margin: 0;
+    padding-left: 320px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+    color: #818386;  
+}
+
+/* Fourth message */
+
+.fourth-message {
+    display: flex;
+    float: right;
+    text-align: center;
+    align-items: center;
+}
+
+.timer-4 {
+    padding-top: 70px;
+    padding-left: 1030px !important;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+    color: #818386;    
+}
+
+/* Fifth message */
+
+.fifth-message {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.fifth-message a {
+    margin-left: 12px;
+}
+
+.container-message-download {
+    margin-left: 8px;
+    background: #eff3fc;
+    border-radius: 8px 8px 1px 8px;
+    border-radius: 8px 8px 8px 0;
+    padding: 2px 1px;   
+}
+
+.container-message-download h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.container-message-download p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px; 
+    color: #3A63DE;    
+}
+
+.desc-download {
+    text-align: left;
+}
+
+.container-download {
+    align-items: center;
+    width: 300px;
+    background-color: #3A63DE;
+    border-radius: 1px 1px 8px 0px;
+    padding: 2px 22px;
+}
+
+.container-download a {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.timer-5 {
+    padding-left: 320px !important;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+    color: #818386;   
+}
+
+.container-download a  {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    color: #FFFFFF;    
+    text-decoration: none;
+}
+
+.timer-6 {
+    padding-top: 90px;
+    padding-left: 1150px !important;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: left;
+    color: #818386;   
+}
+
+#main input {
+    width: 1273px;
+    height: 76px;
+    margin-top: -10px;
+    padding: 0 0 0 90px;
+    background: url(./../image/search-info/main/send-box/smail.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    border-top: 2px solid #E1E3E5 !important;
+    background-image: url(./../image/search-info/main/send-box/Chat.png);
+    border: none;
+    outline: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #818386;
+}
+
+.smails {
+    display: flex;
+    justify-content: center;
+}
+
+.sendbox {
+    display: inline-block;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.sendbox button {
+    border: none;
+    margin-top: 10px;
+    padding-right: 50px;
+}
+
+/* #main button {
+    border: none;
+    align-items: center;
+} */
+
+
+/* 
+font-family: 'Poppins', sans-serif;
+ */
